@@ -3,10 +3,10 @@ fun main() {
     val numTwo = 10
 
     val sum = numOne + numTwo
-    println("Direct Operation: $sum")
+    println("Direct companionobject.Operation: $sum")
 
     val sumFunction = numOne.plus(numTwo)
-    println("Function Operation: $sumFunction")
+    println("Function companionobject.Operation: $sumFunction")
 
     val sub = numOne - numTwo
     println("Direct Subtraction Result: $sub")

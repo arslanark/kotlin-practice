@@ -1,4 +1,4 @@
-import Operation.*
+import companionobject.Operation.*
 
 fun main() {
     try {
@@ -10,14 +10,14 @@ fun main() {
         val valueTwo = readLine()
         val valueTwoInput = valueTwo!!.toDouble()
 
-        print("Select an Operation (+ - / *): ")
+        print("Select an companionobject.Operation (+ - / *): ")
         val operation = readLine()
         val result: Double? = when (operation) {
             ADD.operator -> add(valueOneInput, valueTwoInput)
             SUBTRACT.operator -> sub(valueOneInput, valueTwoInput)
             DIVIDE.operator -> div(valueOneInput, valueTwoInput)
             MULTIPLY.operator -> mul(valueOneInput, valueTwoInput)
-            else -> throw Exception("Unknown Operation")
+            else -> throw Exception("Unknown companionobject.Operation")
         }
         println("Result: $result")
     } catch (e: KotlinNullPointerException) {
