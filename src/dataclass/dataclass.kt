@@ -1,7 +1,6 @@
 package dataclass
 
 import java.text.NumberFormat
-import java.util.*
 
 fun main() {
 
