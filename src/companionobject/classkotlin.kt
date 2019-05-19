@@ -1,5 +1,7 @@
 package companionobject
 
+import java.math.BigDecimal
+
 fun main() {
     try {
         val valueOneInput = MathLib.getInput("Value 1: ")
